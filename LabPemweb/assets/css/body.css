@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Warna latar belakang */
+    color: #dc3545; /* Warna teks utama */
+}
+
+#form-container {
+    margin-top: 20px; /* Jarak antara form dengan elemen di atasnya */
+}
+
+#div-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+#container2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#container-input {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #dc3545; /* Warna garis tepi */
+    border-radius: 5px; /* Sudut melengkung */
+}
+
+#cari-input, #lokasi-input {
+    flex: 1;
+    margin-right: 10px;
+    padding: 5px; /* Padding di dalam input */
+    border: 1px solid #dc3545; /* Warna garis tepi */
+    border-radius: 3px; /* Sudut melengkung */
+}
+
+.form-control, select {
+    padding: 5px; /* Padding di dalam input dan select */
+    border: 1px solid #dc3545; /* Warna garis tepi */
+    border-radius: 3px; /* Sudut melengkung */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Warna latar belakang tombol */
+    color: #fff; /* Warna teks tombol */
+}
+
+.btn-container {
+    width: 30%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.btn-container a {
+    text-decoration: none;
+}
+
+.container-header {
+    margin: 40px 0;
+}
+
+.container-header .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-tim {
+    margin-top: 50px;
+}
+
+.container-tim .row {
+    margin-bottom: 20px;
+}
+
+.card {
+    border: 1px solid #dc3545; /* Warna garis tepi */
+    border-radius: 10px; /* Sudut melengkung */
+    height: 100%; /* Set tinggi card agar semua card memiliki tinggi yang sama */
+}
+
+.card img {
+    object-fit: cover; /* Agar logo tim tetap proporsional dan mempertahankan rasio aspek */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px; /* Sesuaikan dengan kebutuhan Anda */
+}
+
+.card-body {
+    padding: 1rem;
+    text-align: center;
+}
+
+.card-title {
+    color: #dc3545; /* Warna teks judul card */
+}
+
+.card-text {
+    color: #dc3545; /* Warna teks isi card */
+}
+
+.btn-danger-card {
+    background-color: #dc3545; /* Warna latar belakang tombol card */
+    color: #fff; /* Warna teks tombol card */
+}
